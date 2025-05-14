@@ -1,15 +1,3 @@
-#Link capture
+# termux-url-opener for SocialDown
 url=$1
-
-#Script integrity verification
-if [ -e '/data/data/com.termux/files/home/updater.py' ]; then
-    if [ -e '/data/data/com.termux/files/home/main.py' ]; then
-        python "/data/data/com.termux/files/home/updater.py" $url
-    else
-        sh /data/data/com.termux/files/home/refresh.sh
-        python "/data/data/com.termux/files/home/updater.py" $url
-    fi
-else
-    sh /data/data/com.termux/files/home/refresh.sh
-    python "/data/data/com.termux/files/home/updater.py" $url
-fi
+python /data/data/com.termux/files/home/SocialDown.py "$url"

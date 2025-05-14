@@ -28,8 +28,8 @@ A simple, powerful downloader for Android (Termux) to grab videos and audio from
    ```
 3. **Clone SocialDown**
    ```
-   git clone https://github.com/ZapLogic/Social-Down.git
-   cd Social-Down
+   git clone https://github.com/ZapLogic/SocialDown.git
+   cd SocialDown
    ```
 4. **Install dependencies and set up**
    ```
@@ -58,7 +58,7 @@ A simple, powerful downloader for Android (Termux) to grab videos and audio from
 
 ## Example
 ```
-python Social-Down.py "https://www.youtube.com/watch?v=example"
+python SocialDown.py "https://www.youtube.com/watch?v=example"
 ```
 
 ---
