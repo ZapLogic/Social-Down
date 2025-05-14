@@ -30,8 +30,10 @@ A simple, powerful downloader for Android (Termux) to grab videos and audio from
    ```
    git clone https://github.com/ZapLogic/SocialDown.git
    cd SocialDown
+   chmod +X install.sh
+   ./install.sh
    ```
-4. **Install dependencies and set up**
+4. **(optional) Install dependencies and set up**
    ```
    pkg install python aria2 ffmpeg -y
    pip install yt-dlp
